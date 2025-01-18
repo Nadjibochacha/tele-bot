@@ -16,7 +16,7 @@ function handelMessege(messageObj) {
                 return sendMessage(messageObj,"Hi! i'm Nadjib's bot, i'm here to help you.")    
             case 'about': 
                 return sendMessage(messageObj,
-                    "Hello, I'm Najib, a web application developer. My mission is to create digital solutions that make your daily tasks, both general and specific, easier and less time-consuming. I aim to deliver these services at an affordable cost. My focus is on solving issues related to office management, business operations, digital marketing, and e-commerce. I would be happy to assist you—please feel free to contact me here. You can view my previous work at the following link: https://nadjib-chacha.netlify.app/")
+                    "Hello, I'm Najib, a web application developer. My mission is to create digital solutions that make your daily tasks, both general and specific, easier and less time-consuming. I aim to deliver these services at an affordable cost. My focus is on solving issues related to office management, business operations, digital marketing, and e-commerce. I would be happy to assist you—please feel free to contact me here. You can view my previous work at the following link: https://nadjib-chacha.vercel.app/")
         
             default:
                 return sendMessage(messageObj,"Actully, i don't know how can i help you")
